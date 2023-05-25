@@ -1,11 +1,190 @@
 :root {
+  /* Color styles */
+  /* reds */
+  --pds-global-color-general-red-10: rgba(252, 240, 240, 1);
+  --pds-global-color-general-red-20: rgba(247, 218, 218, 1);
+  --pds-global-color-general-red-30: rgba(240, 181, 181, 1);
+  --pds-global-color-general-red-40: rgba(229, 130, 130, 1);
+  --pds-global-color-general-red-50: rgba(217, 71, 71, 1);
+  --pds-global-color-general-red-60: rgba(176, 0, 0, 1);
+  --pds-global-color-general-red-70: rgba(144, 0, 0, 1);
+  --pds-global-color-general-red-80: rgba(98, 0, 0, 1);
+  --pds-global-color-general-red-90: rgba(66, 0, 0, 1);
+
+  /* yellows */
+  --pds-global-color-general-yellow-10: rgba(253, 243, 217, 1);
+  --pds-global-color-general-yellow-20: rgba(252, 235, 192, 1);
+  --pds-global-color-general-yellow-30: rgba(250, 224, 154, 1);
+  --pds-global-color-general-yellow-40: rgba(243, 203, 99, 1);
+  --pds-global-color-general-yellow-50: rgba(238, 189, 62, 1);
+  --pds-global-color-general-yellow-60: rgba(176, 126, 0, 1);
+  --pds-global-color-general-yellow-70: rgba(144, 103, 0, 1);
+  --pds-global-color-general-yellow-80: rgba(98, 70, 0, 1);
+  --pds-global-color-general-yellow-90: rgba(66, 47, 0, 1);
+
+  /* greens */
+  --pds-global-color-general-green-10: rgba(234, 245, 240, 1);
+  --pds-global-color-general-green-20: rgba(206, 232, 221, 1);
+  --pds-global-color-general-green-30: rgba(151, 208, 185, 1);
+  --pds-global-color-general-green-40: rgba(84, 174, 137, 1);
+  --pds-global-color-general-green-50: rgba(30, 139, 95, 1);
+  --pds-global-color-general-green-60: rgba(4, 99, 60, 1);
+  --pds-global-color-general-green-70: rgba(0, 80, 47, 1);
+  --pds-global-color-general-green-80: rgba(0, 52, 30, 1);
+  --pds-global-color-general-green-90: rgba(0, 33, 19, 1);
+
+  /* blues */
+  --pds-global-color-general-blue-10: rgba(235, 243, 249, 1);
+  --pds-global-color-general-blue-20: rgba(209, 229, 243, 1);
+  --pds-global-color-general-blue-30: rgba(164, 201, 226, 1);
+  --pds-global-color-general-blue-40: rgba(114, 164, 197, 1);
+  --pds-global-color-general-blue-50: rgba(67, 129, 170, 1);
+  --pds-global-color-general-blue-60: rgba(45, 90, 122, 1);
+  --pds-global-color-general-blue-70: rgba(36, 72, 98, 1);
+  --pds-global-color-general-blue-80: rgba(23, 47, 64, 1);
+  --pds-global-color-general-blue-90: rgba(15, 29, 40, 1);
+
+  /* greys */
+  --pds-global-color-general-grey-10: rgba(250, 249, 248, 1);
+  --pds-global-color-general-grey-20: rgba(240, 238, 237, 1);
+  --pds-global-color-general-grey-30: rgba(229, 228, 227, 1);
+  --pds-global-color-general-grey-40: rgba(194, 193, 192, 1);
+  --pds-global-color-general-grey-50: rgba(163, 162, 162, 1);
+  --pds-global-color-general-grey-60: rgba(125, 124, 124, 1);
+  --pds-global-color-general-grey-70: rgba(110, 110, 109, 1);
+  --pds-global-color-general-grey-80: rgba(51, 51, 50, 1);
+  --pds-global-color-general-grey-90: rgba(31, 30, 30, 1);
+
+  /* oranges */
+  --pds-global-color-general-orange-10: rgba(255, 240, 225, 1);
+  --pds-global-color-general-orange-20: rgba(254, 219, 182, 1);
+  --pds-global-color-general-orange-30: rgba(248, 183, 117, 1);
+  --pds-global-color-general-orange-40: rgba(231, 134, 42, 1);
+  --pds-global-color-general-orange-50: rgba(188, 100, 17, 1);
+  --pds-global-color-general-orange-60: rgba(133, 69, 8, 1);
+  --pds-global-color-general-orange-70: rgba(108, 55, 6, 1);
+  --pds-global-color-general-orange-80: rgba(71, 36, 4, 1);
+  --pds-global-color-general-orange-90: rgba(44, 23, 3, 1);
+
+  /* purples */
+  --pds-global-color-general-purple-10: rgba(244, 241, 251, 1);
+  --pds-global-color-general-purple-20: rgba(228, 222, 246, 1);
+  --pds-global-color-general-purple-30: rgba(201, 189, 237, 1);
+  --pds-global-color-general-purple-40: rgba(165, 147, 222, 1);
+  --pds-global-color-general-purple-50: rgba(131, 108, 200, 1);
+  --pds-global-color-general-purple-60: rgba(93, 72, 154, 1);
+  --pds-global-color-general-purple-70: rgba(75, 57, 127, 1);
+  --pds-global-color-general-purple-80: rgba(49, 37, 84, 1);
+  --pds-global-color-general-purple-90: rgba(31, 23, 53, 1);
+
+  /* ambers */
+  --pds-global-color-general-amber-10: rgba(248, 241, 233, 1);
+  --pds-global-color-general-amber-20: rgba(239, 222, 204, 1);
+  --pds-global-color-general-amber-30: rgba(223, 191, 154, 1);
+  --pds-global-color-general-amber-40: rgba(202, 147, 85, 1);
+  --pds-global-color-general-amber-50: rgba(178, 106, 25, 1);
+  --pds-global-color-general-amber-60: rgba(125, 74, 18, 1);
+  --pds-global-color-general-amber-70: rgba(100, 60, 14, 1);
+  --pds-global-color-general-amber-80: rgba(65, 39, 9, 1);
+  --pds-global-color-general-amber-90: rgba(41, 24, 6, 1);
+
+  /* forests */
+  --pds-global-color-general-forest-10: rgba(232, 245, 236, 1);
+  --pds-global-color-general-forest-20: rgba(204, 232, 214, 1);
+  --pds-global-color-general-forest-30: rgba(153, 209, 173, 1);
+  --pds-global-color-general-forest-40: rgba(99, 173, 124, 1);
+  --pds-global-color-general-forest-50: rgba(83, 134, 100, 1);
+  --pds-global-color-general-forest-60: rgba(62, 92, 72, 1);
+  --pds-global-color-general-forest-70: rgba(50, 74, 58, 1);
+  --pds-global-color-general-forest-80: rgba(32, 48, 38, 1);
+  --pds-global-color-general-forest-90: rgba(20, 30, 24, 1);
+
+  /* blacks */
+  --pds-global-color-general-black-a10: rgba(0, 0, 0, 0.1);
+  --pds-global-color-general-black-a20: rgba(0, 0, 0, 0.2);
+  --pds-global-color-general-black-a30: rgba(0, 0, 0, 0.3);
+  --pds-global-color-general-black-a40: rgba(0, 0, 0, 0.4);
+  --pds-global-color-general-black-a50: rgba(0, 0, 0, 0.5);
+  --pds-global-color-general-black-a60: rgba(0, 0, 0, 0.6);
+  --pds-global-color-general-black-a70: rgba(0, 0, 0, 0.7);
+  --pds-global-color-general-black-a80: rgba(0, 0, 0, 0.8);
+  --pds-global-color-general-black-a90: rgba(0, 0, 0, 0.9);
+  --pds-global-color-general-black-a100: rgba(0, 0, 0, 1);
+
+  /* whites */
+  --pds-global-color-general-white-a10: rgba(255, 255, 255, 0.1);
+  --pds--global-color-general-white-a20: rgba(255, 255, 255, 0.2);
+  --pds--global-color-general-white-a30: rgba(255, 255, 255, 0.3);
+  --pds--global-color-general-white-a40: rgba(255, 255, 255, 0.4);
+  --pds--global-color-general-white-a50: rgba(255, 255, 255, 0.5);
+  --pds--global-color-general-white-a60: rgba(255, 255, 255, 0.6);
+  --pds--global-color-general-white-a70: rgba(255, 255, 255, 0.7);
+  --pds--global-color-general-white-a80: rgba(255, 255, 255, 0.8);
+  --pds--global-color-general-white-a90: rgba(255, 255, 255, 0.9);
+  --pds--global-color-general-white-a100: rgba(255, 255, 255, 1);
+
+  /* golden gate */
+  --pds--global-color-brand-golden_gate-10: rgba(255, 240, 229, 1);
+  --pds--global-color-brand-golden_gate-20: rgba(254, 224, 214, 1);
+  --pds--global-color-brand-golden_gate-30: rgba(249, 179, 171, 1);
+  --pds--global-color-brand-golden_gate-40: rgba(244, 120, 118, 1);
+  --pds--global-color-brand-golden_gate-50: rgba(220, 61, 67, 1);
+  --pds--global-color-brand-golden_gate-60: rgba(163, 14, 28, 1);
+  --pds--global-color-brand-golden_gate-70: rgba(140, 14, 18, 1);
+  --pds--global-color-brand-golden_gate-80: rgba(92, 13, 15, 1);
+  --pds--global-color-brand-golden_gate-90: rgba(67, 12, 13, 1);
+
+  /* sutro */
+  --pds-global-color-brand-sutro--10: rgba(229, 252, 255, 1);
+  --pds-global-color-brand-sutro--20: rgba(187, 243, 254, 1);
+  --pds-global-color-brand-sutro--30: rgba(101, 210, 242, 1);
+  --pds-global-color-brand-sutro--40: rgba(0, 158, 220, 1);
+  --pds-global-color-brand-sutro--50: rgba(0, 129, 198, 1);
+  --pds-global-color-brand-sutro--60: rgba(0, 75, 146, 1);
+  --pds-global-color-brand-sutro--70: rgba(0, 68, 136, 1);
+  --pds-global-color-brand-sutro--80: rgba(1, 46, 85, 1);
+  --pds-global-color-brand-sutro--90: rgba(2, 37, 66, 1);
+
+  /* fort point */
+  --pds-global-color-brand-fort_point-10: rgba(254, 241, 229, 1);
+  --pds-global-color-brand-fort_point-20: rgba(255, 223, 199, 1);
+  --pds-global-color-brand-fort_point-30: rgba(250, 181, 133, 1);
+  --pds-global-color-brand-fort_point-40: rgba(251, 116, 53, 1);
+  --pds-global-color-brand-fort_point-50: rgba(209, 83, 25, 1);
+  --pds-global-color-brand-fort_point-60: rgba(169, 49, 28, 1);
+  --pds-global-color-brand-fort_point-70: rgba(128, 37, 12, 1);
+  --pds-global-color-brand-fort_point-80: rgba(84, 25, 8, 1);
+  --pds-global-color-brand-fort_point-90: rgba(72, 25, 16, 1);
+
+  /* presidio */
+  --pds-global-color-brand-presidio-10: rgba(236, 252, 233, 1);
+  --pds-global-color-brand-presidio-20: rgba(223, 250, 217, 1);
+  --pds-global-color-brand-presidio-30: rgba(152, 212, 123, 1);
+  --pds-global-color-brand-presidio-40: rgba(120, 194, 80, 1);
+  --pds-global-color-brand-presidio-50: rgba(78, 137, 50, 1);
+  --pds-global-color-brand-presidio-60: rgba(65, 117, 40, 1);
+  --pds-global-color-brand-presidio-70: rgba(31, 82, 14, 1);
+  --pds-global-color-brand-presidio-80: rgba(32, 51, 30, 1);
+  --pds-global-color-brand-presidio-90: rgba(19, 31, 18, 1);
+
+  /* baker */
+  --pds-global-color-brand-baker-10: rgba(245, 241, 238, 1);
+  --pds-global-color-brand-baker-20: rgba(237, 230, 226, 1);
+  --pds-global-color-brand-baker-30: rgba(216, 205, 196, 1);
+  --pds-global-color-brand-baker-40: rgba(165, 157, 148, 1);
+  --pds-global-color-brand-baker-50: rgba(129, 122, 114, 1);
+  --pds-global-color-brand-baker-60: rgba(101, 93, 88, 1);
+  --pds-global-color-brand-baker-70: rgba(72, 68, 64, 1);
+  --pds-global-color-brand-baker-80: rgba(46, 45, 42, 1);
+  --pds-global-color-brand-baker-90: rgba(38, 37, 36, 1);
+
   --border_radius-full: 9999px;
   --border_radius-medium: 12px;
-  --colorInkPrimary: red !important;
-  --colorInkSecondary: #6e6e6d;
-  --colorBorderStructure: #e5e4e3;
-  --colorBorderSubtle: #e5e4e3;
-  --colorBorderProminent: #e5e4e3;
+  --colorInkPrimary: var(--pds-global-color-general-grey-90);
+  --colorInkSecondary: var(--pds-global-color-general-grey-70);
+  --colorBorderStructure: var(--pds-global-color-general-grey-20);
+  --colorBorderSubtle: var(--pds-global-color-general-grey-20);
+  --colorBorderProminent: var(--pds-global-color-general-grey-20);
   --colorCodeMark: #932981;
   --sideNavWidth: 220px;
   --contentContainerPadding: 64px;
