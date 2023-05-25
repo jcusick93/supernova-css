@@ -214,12 +214,12 @@ a:hover {
 
 p {
   max-width: 80ch;
+  font-size: 1.125rem;
 }
 html,
 body,
 .container-title > .slider .subtitle,
 p {
-  font-size: 1rem;
   line-height: 140%;
 }
 h1,
