@@ -291,6 +291,7 @@ table tbody tr:nth-child(odd) {
   background-color: var(--pds-global-color-general-grey-10);
 }
 
+/* adds border to the first tr */
 table.header-row tr:first-child {
   border-bottom: solid 1px var(--colorBorderSubtle);
 }
@@ -302,7 +303,6 @@ table.header-row tr:first-child th {
 
 table.header-row tr:first-child th p {
   color: var(--colorInkPrimary);
-  border-bottom: solid 1px var(--pds-global-color-general-grey-20);
 }
 
 /* Figma block image */
