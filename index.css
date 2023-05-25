@@ -1,0 +1,19 @@
+:root {
+  --border_radius-full: 9999px;
+  --border_radius-medium: 12px;
+  --colorInkPrimary: red;
+  --colorInkSecondary: #6e6e6d;
+  --colorBorderStructure: #e5e4e3;
+  --colorBorderSubtle: #e5e4e3;
+  --colorBorderProminent: #e5e4e3;
+  --colorCodeMark: #932981;
+  --sideNavWidth: 220px;
+  --contentContainerPadding: 64px;
+}
+
+/* handles resposive styles */
+@media screen and (max-width: 768px) {
+  :root {
+    --contentContainerPadding: 32px;
+  }
+}
