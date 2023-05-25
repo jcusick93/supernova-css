@@ -291,10 +291,8 @@ table tbody tr:nth-child(odd) {
   background-color: var(--pds-global-color-general-grey-10);
 }
 
-div.data-table-wrapper {
-  border: solid 1px var(--colorBorderStructure);
-  background-color: white;
-  border-radius: var(--border_radius-medium);
+table.header-row tr:first-child {
+  border-bottom: solid 1px var(--colorBorderSubtle);
 }
 
 table.header-row tr:first-child th {
@@ -304,11 +302,12 @@ table.header-row tr:first-child th {
 
 table.header-row tr:first-child th p {
   color: var(--colorInkPrimary);
+  border-bottom: solid 1px var(--pds-global-color-general-grey-20);
 }
 
 /* Figma block image */
 .layout-tiles img {
-  background: #f0eeed;
+  background: var(--pds-global-color-general-grey-20);
   border-radius: var(--border_radius-medium);
 }
 
