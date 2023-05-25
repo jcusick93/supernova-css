@@ -112,27 +112,27 @@
   --pds-global-color-general-black-a100: rgba(0, 0, 0, 1);
 
   /* whites */
-  --pds-global-color-general-white-a10: rgba(255, 255, 255, 0.1);
-  --pds--global-color-general-white-a20: rgba(255, 255, 255, 0.2);
-  --pds--global-color-general-white-a30: rgba(255, 255, 255, 0.3);
-  --pds--global-color-general-white-a40: rgba(255, 255, 255, 0.4);
-  --pds--global-color-general-white-a50: rgba(255, 255, 255, 0.5);
-  --pds--global-color-general-white-a60: rgba(255, 255, 255, 0.6);
-  --pds--global-color-general-white-a70: rgba(255, 255, 255, 0.7);
-  --pds--global-color-general-white-a80: rgba(255, 255, 255, 0.8);
-  --pds--global-color-general-white-a90: rgba(255, 255, 255, 0.9);
-  --pds--global-color-general-white-a100: rgba(255, 255, 255, 1);
+  --pdsglobal-color-general-white-a10: rgba(255, 255, 255, 0.1);
+  --pds-global-color-general-white-a20: rgba(255, 255, 255, 0.2);
+  --pds-global-color-general-white-a30: rgba(255, 255, 255, 0.3);
+  --pds-global-color-general-white-a40: rgba(255, 255, 255, 0.4);
+  --pds-global-color-general-white-a50: rgba(255, 255, 255, 0.5);
+  --pds-global-color-general-white-a60: rgba(255, 255, 255, 0.6);
+  --pds-global-color-general-white-a70: rgba(255, 255, 255, 0.7);
+  --pds-global-color-general-white-a80: rgba(255, 255, 255, 0.8);
+  --pds-global-color-general-white-a90: rgba(255, 255, 255, 0.9);
+  --pds-global-color-general-white-a100: rgba(255, 255, 255, 1);
 
   /* golden gate */
-  --pds--global-color-brand-golden_gate-10: rgba(255, 240, 229, 1);
-  --pds--global-color-brand-golden_gate-20: rgba(254, 224, 214, 1);
-  --pds--global-color-brand-golden_gate-30: rgba(249, 179, 171, 1);
-  --pds--global-color-brand-golden_gate-40: rgba(244, 120, 118, 1);
-  --pds--global-color-brand-golden_gate-50: rgba(220, 61, 67, 1);
-  --pds--global-color-brand-golden_gate-60: rgba(163, 14, 28, 1);
-  --pds--global-color-brand-golden_gate-70: rgba(140, 14, 18, 1);
-  --pds--global-color-brand-golden_gate-80: rgba(92, 13, 15, 1);
-  --pds--global-color-brand-golden_gate-90: rgba(67, 12, 13, 1);
+  --pds-global-color-brand-golden_gate-10: rgba(255, 240, 229, 1);
+  --pds-global-color-brand-golden_gate-20: rgba(254, 224, 214, 1);
+  --pds-global-color-brand-golden_gate-30: rgba(249, 179, 171, 1);
+  --pds-global-color-brand-golden_gate-40: rgba(244, 120, 118, 1);
+  --pds-global-color-brand-golden_gate-50: rgba(220, 61, 67, 1);
+  --pds-global-color-brand-golden_gate-60: rgba(163, 14, 28, 1);
+  --pds-global-color-brand-golden_gate-70: rgba(140, 14, 18, 1);
+  --pds-global-color-brand-golden_gate-80: rgba(92, 13, 15, 1);
+  --pds-global-color-brand-golden_gate-90: rgba(67, 12, 13, 1);
 
   /* sutro */
   --pds-global-color-brand-sutro--10: rgba(229, 252, 255, 1);
@@ -190,9 +190,162 @@
   --contentContainerPadding: 64px;
 }
 
-/* handles resposive styles */
+/* handles responsive styles */
 @media screen and (max-width: 768px) {
   :root {
     --contentContainerPadding: 32px;
   }
+}
+
+/* default text styles */
+* {
+  scroll-behavior: smooth;
+}
+
+/* link styles */
+a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  max-width: 80ch;
+}
+html,
+body,
+.container-title > .slider .subtitle,
+p {
+  font-size: 1rem;
+  color: var(--colorInkSecondary);
+  line-height: 140%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header styles */
+#header {
+  box-shadow: 0px 2px 12px 0px #0000001a;
+}
+
+/* styles images on pages */
+.content-block--image img {
+  border-radius: var(--border_radius-medium);
+}
+
+/* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
+.container-title > .slider h1.page-title,
+.docs-navigation > .nav.first-level-flat .group-open > .nav-link.group,
+.layout-tiles.variant-plain .grid > div p.title,
+#content-nav .content-nav-header {
+  font-family: "Poppins", sans-serif;
+  color: var(--colorInkPrimary);
+  text-decoration: none;
+}
+
+/* page title section */
+.container-title {
+  border: none;
+}
+
+#page-tab-content {
+  padding-top: 0px;
+}
+
+/* changes page title padding */
+.container-title > .slider {
+  padding: 32px 0px 0px 0px;
+}
+
+/* customizes Figma block title */
+.layout-tiles.variant-plain .grid > div p.title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* customizes Figma block description */
+.layout-tiles.variant-plain .grid > div p.description {
+  font-size: 1rem;
+}
+
+/* customizes Figma block */
+.layout-tiles.variant-plain .grid > div {
+  background-color: transparent;
+}
+
+/* changes style of table */
+table {
+  overflow: hidden;
+  width: 100% !important;
+  border-radius: var(--border_radius-medium);
+  border-color: var(--colorBorderStructure);
+}
+
+div.data-table-wrapper {
+  border: solid 1px var(--colorBorderStructure);
+  background-color: white;
+  border-radius: var(--border_radius-medium);
+}
+
+table.header-row tr:first-child th {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+table.header-row tr:first-child th p {
+  color: var(--colorInkPrimary);
+}
+
+tr {
+  transition: background-color 200ms ease;
+}
+
+tr:hover {
+  background-color: rgba(31, 30, 30, 0.05);
+}
+
+/* Figma block image */
+.layout-tiles img {
+  background: #f0eeed;
+  border-radius: var(--border_radius-medium);
+}
+
+/* changes the side nav logo */
+.site-logo > img {
+  height: 32px !important;
+}
+
+/* changes nav link item on side nav */
+.docs-navigation > .nav .nav .nav-item .nav-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* changes the code style */
+
+mark {
+  background-color: rgb(147 41 129 / 5%);
+  border: none;
+}
+
+/* handles tabs */
+
+.container-tabs {
+  margin-top: 32px;
+  background: none;
+  position: static;
+}
+
+.nav-tabs .nav-item .nav-link {
+  text-decoration: none;
+  font-weight: 600;
 }

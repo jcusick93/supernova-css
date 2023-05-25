@@ -1,2 +1,3 @@
-# supernova-css
+# Supernova CSS
+
 CSS overrides for Supernova
