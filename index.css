@@ -307,7 +307,7 @@ table.header-row tr:first-child th p {
 
 /* Figma block image */
 .layout-tiles img {
-  background: var(--pds-global-color-general-grey-20);
+  background: var(--pds-global-color-general-grey-10);
   border-radius: var(--border_radius-medium);
 }
 
@@ -345,6 +345,7 @@ mark {
 /* styles link block */
 
 .content-block--shortcuts .shortcut-item {
+  text-decoration: none;
   box-shadow: none;
   border: solid 1px var(--colorBorderSubtle);
   transition: all 200ms ease;
@@ -354,4 +355,8 @@ mark {
 .content-block--shortcuts .shortcut-item:hover {
   box-shadow: none;
   background-color: var(--pds-global-color-general-grey-10);
+}
+
+.content-block--shortcuts .shortcut-item:hover p.title {
+  color: var(--colorInkPrimary);
 }
