@@ -341,3 +341,17 @@ mark {
   text-decoration: none;
   font-weight: 600;
 }
+
+/* styles link block */
+
+.content-block--shortcuts .shortcut-item {
+  box-shadow: none;
+  border: solid 1px var(--colorBorderSubtle);
+  transition: all 200ms ease;
+  border-radius: var(--border_radius-medium);
+}
+
+.content-block--shortcuts .shortcut-item:hover {
+  box-shadow: none;
+  background-color: var(--pds-global-color-general-grey-10);
+}
