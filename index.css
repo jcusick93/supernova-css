@@ -285,8 +285,10 @@ h6 {
 table {
   overflow: hidden;
   width: 100% !important;
-  border-radius: var(--border_radius-medium);
-  border-color: var(--colorBorderStructure);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: var(--pds-global-color-general-grey-10);
 }
 
 div.data-table-wrapper {
@@ -302,14 +304,6 @@ table.header-row tr:first-child th {
 
 table.header-row tr:first-child th p {
   color: var(--colorInkPrimary);
-}
-
-tr {
-  transition: background-color 200ms ease;
-}
-
-tr:hover {
-  background-color: rgba(31, 30, 30, 0.05);
 }
 
 /* Figma block image */
