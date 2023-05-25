@@ -1,7 +1,7 @@
 :root {
   --border_radius-full: 9999px;
   --border_radius-medium: 12px;
-  --colorInkPrimary: red;
+  --colorInkPrimary: red !important;
   --colorInkSecondary: #6e6e6d;
   --colorBorderStructure: #e5e4e3;
   --colorBorderSubtle: #e5e4e3;
