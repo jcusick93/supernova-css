@@ -220,9 +220,7 @@ body,
 .container-title > .slider .subtitle,
 p {
   font-size: 1.25rem;
-  color: var(--colorInkSecondary);
   line-height: 140%;
-  max-width: 70ch;
 }
 h1,
 h2,
