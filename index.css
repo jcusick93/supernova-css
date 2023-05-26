@@ -188,7 +188,7 @@
   --colorCodeMark: #932981;
   --sideNavWidth: 220px;
   --contentContainerPadding: 64px;
-  --contentFontBase: 1.125rem;
+  --contentFontBase: 1rem;
 }
 
 /* handles responsive styles */
