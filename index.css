@@ -178,8 +178,11 @@
   --pds-global-color-brand-baker-80: rgba(46, 45, 42, 1);
   --pds-global-color-brand-baker-90: rgba(38, 37, 36, 1);
 
-  --border_radius-full: 9999px;
-  --border_radius-medium: 12px;
+  /* border radius */
+  --pds-global-border_radius-200: 12px;
+  --pds-global-border_radius-1000: 9999px;
+
+  /* theme overrides */
   --colorInkPrimary: var(--pds-global-color-general-grey-90);
   --colorInkSecondary: var(--pds-global-color-general-grey-70);
   --colorBorderStructure: var(--pds-global-color-general-grey-20);
@@ -189,6 +192,7 @@
   --sideNavWidth: 220px;
   --contentContainerPadding: 64px;
   --contentFontBase: 1rem;
+  --headingLevel3Size: 1.125rem;
 }
 
 /* handles responsive styles */
@@ -232,6 +236,10 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  font-weight: 500;
+}
+
 /* header styles */
 #header {
   box-shadow: 0px 2px 12px 0px #0000001a;
@@ -239,7 +247,7 @@ h6 {
 
 /* styles images on pages */
 .content-block--image img {
-  border-radius: var(--border_radius-medium);
+  border-radius: var(--pds-global-border_radius-200);
 }
 
 /* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
@@ -289,8 +297,12 @@ table {
   width: 100% !important;
 }
 
-table tbody tr:nth-child(odd) {
+table tbody tr:nth-child(even) {
   background-color: var(--pds-global-color-general-grey-10);
+}
+
+div.data-table-wrapper {
+  border-radius: var(--pds-global-border_radius-200);
 }
 
 /* adds border to the first tr */
@@ -310,7 +322,7 @@ table.header-row tr:first-child th p {
 /* Figma block image */
 .layout-tiles img {
   background: var(--pds-global-color-general-grey-10);
-  border-radius: var(--border_radius-medium);
+  border-radius: var(--pds-global-border_radius-200);
 }
 
 /* changes the side nav logo */
@@ -351,7 +363,7 @@ mark {
   box-shadow: none;
   border: solid 1px var(--colorBorderSubtle);
   transition: all 200ms ease;
-  border-radius: var(--border_radius-medium);
+  border-radius: var(--pds-global-border_radius-200);
 }
 
 .content-block--shortcuts .shortcut-item:hover {
