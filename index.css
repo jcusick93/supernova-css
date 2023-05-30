@@ -269,7 +269,7 @@ h6 {
 
 /* customizes Figma block title */
 .layout-tiles.variant-plain .grid > div p.title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
 }
 
