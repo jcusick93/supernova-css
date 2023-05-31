@@ -57,7 +57,10 @@
   --pds-theme-shadow-high-right: 8px 0px 24px rgba(0, 0, 0, 0.1);
 
   /* border radius */
+  --pds-global-border_radius-100: 4px;
   --pds-global-border_radius-200: 12px;
+  --pds-global-border_radius-300: 16px;
+  --pds-global-border_radius-400: 24px;
   --pds-global-border_radius-1000: 9999px;
 
   /* theme overrides */
@@ -123,7 +126,7 @@ h3 {
 
 /* styles images on pages */
 .content-block--image img {
-  border-radius: var(--pds-global-border_radius-200);
+  border-radius: var(--pds-global-border_radius-400);
 }
 
 /* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
@@ -198,7 +201,7 @@ table.header-row tr:first-child th p {
 /* Figma block image */
 .layout-tiles img {
   background: var(--pds-theme-color-background-sunken);
-  border-radius: var(--pds-global-border_radius-200);
+  border-radius: var(--pds-global-border_radius-400);
 }
 
 /* changes the side nav logo */
@@ -232,7 +235,7 @@ table.header-row tr:first-child th p {
   box-shadow: none;
   border: solid 1px var(--colorBorderSubtle);
   transition: all 200ms ease;
-  border-radius: var(--pds-global-border_radius-200);
+  border-radius: var(--pds-global-border_radius-300);
 }
 
 .content-block--shortcuts .shortcut-item:hover {
