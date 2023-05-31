@@ -181,7 +181,7 @@ table tbody tr:nth-child(even) {
 }
 
 div.data-table-wrapper {
-  border-radius: var(--pds-global-border_radius-200);
+  border-radius: var(--pds-global-border_radius-400);
 }
 
 /* adds border to the first tr */
