@@ -73,12 +73,14 @@
   --contentContainerPadding: 64px;
   --contentFontBase: 1rem;
   --headingLevel3Size: 1.125rem;
+  --pageTitleFontSize: 4rem;
 }
 
 /* handles responsive styles */
 @media screen and (max-width: 768px) {
   :root {
     --contentContainerPadding: 32px;
+    --pageTitleFontSize: 3rem;
   }
 }
 
