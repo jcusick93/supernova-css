@@ -97,7 +97,10 @@ a:hover {
   text-decoration: none;
 }
 
-p {
+p,
+li,
+ol,
+ul {
   max-width: 80ch;
 }
 html,
