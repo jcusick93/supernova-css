@@ -100,7 +100,8 @@ a:hover {
 p,
 li,
 ol,
-ul {
+ul,
+span {
   max-width: 80ch;
 }
 html,
