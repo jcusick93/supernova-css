@@ -252,11 +252,11 @@ table.header-row tr:first-child th p {
   height: 100%;
   width: 100%;
 }
-.content-block--shortcuts .shortcut-item:hover::after {
+.content-block--shortcuts .shortcut-item:hover::before {
   opacity: 0.1;
 }
 
-.content-block--shortcuts .shortcut-item:active::after {
+.content-block--shortcuts .shortcut-item:active::before {
   opacity: 0.2;
 }
 
