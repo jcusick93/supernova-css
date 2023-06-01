@@ -256,7 +256,7 @@ table.header-row tr:first-child th p {
 /* callout component styles */
 
 .content-block--callout {
-  border-radius: var(--pds-global-border_radius-300);
+  border-radius: var(--pds-global-border_radius-200);
 }
 
 .content-block--callout.callout-info {
