@@ -252,3 +252,18 @@ table.header-row tr:first-child th p {
 .content-block--shortcuts .shortcut-item:hover p.title {
   color: var(--colorInkPrimary);
 }
+
+/* callout component styles */
+
+.content-block--callout {
+  border-radius: var(--pds-global-border_radius-300);
+}
+
+.content-block--callout.callout-info {
+  background-color: var(--pds-theme-color-background-info);
+  color: var(--pds-theme-color-foreground-info);
+}
+
+.content-block--callout.callout-info .icon {
+  color: var(--pds-theme-color-foreground-info);
+}
