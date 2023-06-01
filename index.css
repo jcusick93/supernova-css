@@ -231,16 +231,33 @@ table.header-row tr:first-child th p {
 
 /* styles link block */
 .content-block--shortcuts .shortcut-item {
+  position: relative;
   text-decoration: none;
   box-shadow: none;
   border: solid 1px var(--colorBorderSubtle);
-  transition: all 200ms ease;
   border-radius: var(--pds-global-border_radius-300);
 }
 
 .content-block--shortcuts .shortcut-item:hover {
   box-shadow: none;
-  background-color: var(--pds-theme-color-background-sunken);
+}
+
+.content-block--shortcuts .shortcut-item::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: var(--pds-theme-color-outline-neutral_high);
+  opacity: 0;
+  transition: all 200ms ease;
+  height: 100%;
+  width: 100%;
+}
+.content-block--shortcuts .shortcut-item:hover::after {
+  opacity: 0.1;
+}
+
+.content-block--shortcuts .shortcut-item:active::after {
+  opacity: 0.2;
 }
 
 .content-block--shortcuts .shortcut-item p.title {
