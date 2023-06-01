@@ -79,14 +79,6 @@
   --borderRadiusLarge: var(--pds-global-border_radius-300);
 }
 
-/* handles responsive styles */
-@media screen and (max-width: 768px) {
-  :root {
-    --contentContainerPadding: 32px;
-    --pageTitleFontSize: 3rem;
-  }
-}
-
 /* default text styles */
 * {
   scroll-behavior: smooth;
@@ -257,11 +249,6 @@ table.header-row tr:first-child th p {
 }
 
 /* callout component styles */
-
-.content-block--callout {
-  border-radius: var(--pds-global-border_radius-200);
-}
-
 .content-block--callout.callout-info {
   background-color: var(--pds-theme-color-background-info);
   color: var(--pds-theme-color-foreground-info);
@@ -269,4 +256,12 @@ table.header-row tr:first-child th p {
 
 .content-block--callout.callout-info .icon {
   color: var(--pds-theme-color-foreground-info);
+}
+
+/* handles responsive styles */
+@media screen and (max-width: 768px) {
+  :root {
+    --contentContainerPadding: 32px;
+    --pageTitleFontSize: 3rem;
+  }
 }
