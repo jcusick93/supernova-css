@@ -230,7 +230,6 @@ table.header-row tr:first-child th p {
 }
 
 /* styles link block */
-
 .content-block--shortcuts .shortcut-item {
   text-decoration: none;
   box-shadow: none;
@@ -242,6 +241,10 @@ table.header-row tr:first-child th p {
 .content-block--shortcuts .shortcut-item:hover {
   box-shadow: none;
   background-color: var(--pds-theme-color-background-sunken);
+}
+
+.content-block--shortcuts .shortcut-item p.title {
+  font-family: "Poppins", sans-serif;
 }
 
 .content-block--shortcuts .shortcut-item:hover p.title {
