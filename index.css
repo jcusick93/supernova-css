@@ -273,4 +273,7 @@ table.header-row tr:first-child th p {
   border-radius: var(--borderRadiusDefault) !important;
   background: var(--pds-theme-color-background-baseline_inverse) !important;
   box-shadow: var(--pds-theme-shadow-medium-bottom) !important;
+  padding: 12px 16px !important;
+  font-family: va(--fontFamily) !important;
+  font-size: 1rem !important;
 }
