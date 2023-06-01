@@ -268,3 +268,9 @@ table.header-row tr:first-child th p {
     --pageTitleFontSize: 3rem;
   }
 }
+
+#toast-content {
+  border-radius: var(--borderRadiusDefault) !important;
+  background: var(--pds-theme-color-background-baseline_inverse) !important;
+  box-shadow: var(--pds-theme-shadow-medium-bottom) !important;
+}
