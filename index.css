@@ -246,7 +246,7 @@ table.header-row tr:first-child th p {
   content: "";
   position: absolute;
   z-index: 1;
-  background: var(--pds-theme-color-outline-neutral_high);
+  background: var(--pds-theme-color-foreground-neutral_high);
   opacity: 0;
   transition: all 200ms ease;
   height: 100%;
