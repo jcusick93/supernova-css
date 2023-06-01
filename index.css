@@ -74,6 +74,9 @@
   --contentFontBase: 1rem;
   --headingLevel3Size: 1.125rem;
   --pageTitleFontSize: 4rem;
+  --borderRadiusSmall: var(--pds-global-border_radius-100);
+  --borderRadiusDefault: var(--pds-global-border_radius-200);
+  --borderRadiusLarge: var(--pds-global-border_radius-300);
 }
 
 /* handles responsive styles */
