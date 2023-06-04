@@ -114,6 +114,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
 }
 
 h3 {
@@ -276,4 +277,26 @@ table.header-row tr:first-child th p {
   padding: 12px 16px !important;
   font-family: va(--fontFamily) !important;
   font-size: 1rem !important;
+}
+
+/* styled the side nav */
+.side-navigation-wrapper {
+  border: none;
+}
+
+/* changes padding on all content blocks */
+.content-block {
+  margin-bottom: 32px;
+}
+
+ol.content-block {
+  margin-bottom: 40px;
+}
+
+p + .content-block {
+  margin-top: 8px;
+}
+
+.content-block--frames {
+  margin-bottom: 0px !important;
 }
