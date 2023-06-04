@@ -167,11 +167,6 @@ h3 {
   font-size: 1rem;
 }
 
-/* customizes Figma block */
-.layout-tiles.variant-plain .grid > div {
-  background-color: transparent;
-}
-
 /* changes style of table */
 table {
   overflow: hidden;
