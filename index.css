@@ -6,7 +6,7 @@
   --pds-global-general-grey-40: rgba(194, 193, 192, 1);
   --pds-global-general-grey-50: rgba(163, 162, 162, 1);
   --pds-global-general-grey-60: rgba(125, 124, 124, 1);
-  --pds-global-general-grey-70: rgba(110, 110, 109, 1);
+  --pds-global-general-grey-70: rgba(75, 75, 73, 1);
   --pds-global-general-grey-80: rgba(51, 51, 50, 1);
   --pds-global-general-grey-90: rgba(31, 30, 30, 1);
 
@@ -16,7 +16,7 @@
   --pds-theme-color-background-baseline: rgba(255, 255, 255, 1);
   --pds-theme-color-background-baseline_inverse: rgba(31, 30, 30, 1);
   --pds-theme-color-background-raised: rgba(255, 255, 255, 1);
-  --pds-theme-color-background-raised_inverse: rgba(51, 51, 50, 1);
+  --pds-theme-color-background-raised_inverse: rgba(31, 30, 30, 1);
   --pds-theme-color-background-overlay: rgba(255, 255, 255, 1);
   --pds-theme-color-background-error: rgba(252, 240, 240, 1);
   --pds-theme-color-background-error_inverse: rgba(176, 0, 0, 1);
@@ -332,9 +332,7 @@ p + .content-block {
 }
 
 /* styles the border radius swatch */
-.token-preview-container-border.large,
-.token-preview-container-radius.large,
-.token-preview-container-blur.large {
+.token-preview-container-radius {
   border: none;
   background-color: var(--pds-global-general-grey-30);
   height: 40px;
