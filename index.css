@@ -335,6 +335,11 @@ p + .content-block {
 .token-preview-container-radius {
   border: none;
   background-color: var(--pds-global-general-grey-30);
+}
+
+.token-preview-container-border.large,
+.token-preview-container-radius.large,
+.token-preview-container-blur.large {
   height: 40px;
   width: 40px;
 }
