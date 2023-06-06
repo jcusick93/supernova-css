@@ -1,5 +1,15 @@
 :root {
   /* colors */
+  --pds-global-general-grey-10: rgba(250, 249, 248, 1);
+  --pds-global-general-grey-20: rgba(240, 238, 237, 1);
+  --pds-global-general-grey-30: rgba(229, 228, 227, 1);
+  --pds-global-general-grey-40: rgba(194, 193, 192, 1);
+  --pds-global-general-grey-50: rgba(163, 162, 162, 1);
+  --pds-global-general-grey-60: rgba(125, 124, 124, 1);
+  --pds-global-general-grey-70: rgba(110, 110, 109, 1);
+  --pds-global-general-grey-80: rgba(51, 51, 50, 1);
+  --pds-global-general-grey-90: rgba(31, 30, 30, 1);
+
   /* background */
   --pds-theme-color-background-primary: rgba(0, 68, 136, 1);
   --pds-theme-color-background-sunken: rgba(250, 249, 248, 1);
@@ -325,6 +335,8 @@ p + .content-block {
 .token-preview-container-border.large,
 .token-preview-container-radius.large,
 .token-preview-container-blur.large {
+  border: none;
+  background-color: var(--pds-global-general-grey-30);
   height: 40px;
   width: 40px;
 }
