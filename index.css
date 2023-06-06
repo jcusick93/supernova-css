@@ -312,8 +312,21 @@ p + .content-block {
 }
 
 .token-preview-container.large .token-type-shadow {
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
+}
+
+/* styles the token name */
+.content-block--token-container .grid > div > p.title::first-letter {
+  text-transform: capitalize;
+}
+
+/* styles the border radius swatch */
+.token-preview-container-border.large,
+.token-preview-container-radius.large,
+.token-preview-container-blur.large {
+  height: 40px;
+  width: 40px;
 }
 
 /* handles responsive styles */
