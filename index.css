@@ -344,6 +344,23 @@ p + .content-block {
   width: 40px;
 }
 
+/* styles the bottom nav button links */
+.page-bottom-navigation .segment {
+  border: solid 1px var(--pds-theme-color-outline-neutral_low);
+  box-shadow: none;
+  transition: all 200ms ease;
+}
+
+.page-bottom-navigation .segment:hover {
+  box-shadow: var(--pds-theme-shadow-low-bottom);
+  color: var(--pds-theme-color-foreground-neutral_high);
+}
+
+.page-bottom-navigation .segment .arrow,
+.page-bottom-navigation .segment .segment-text > .section {
+  opacity: 1;
+}
+
 /* handles responsive styles */
 @media screen and (max-width: 768px) {
   :root {
