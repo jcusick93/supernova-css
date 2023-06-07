@@ -1,60 +1,63 @@
 :root {
   /* colors */
-  --pds-global-general-grey-10: rgba(250, 249, 248, 1);
-  --pds-global-general-grey-20: rgba(240, 238, 237, 1);
-  --pds-global-general-grey-30: rgba(229, 228, 227, 1);
-  --pds-global-general-grey-40: rgba(194, 193, 192, 1);
-  --pds-global-general-grey-50: rgba(163, 162, 162, 1);
-  --pds-global-general-grey-60: rgba(125, 124, 124, 1);
-  --pds-global-general-grey-70: rgba(75, 75, 73, 1);
-  --pds-global-general-grey-80: rgba(51, 51, 50, 1);
-  --pds-global-general-grey-90: rgba(31, 30, 30, 1);
+  --pds-global-general-grey-10: #faf9f8;
+  --pds-global-general-grey-20: #f0eeed;
+  --pds-global-general-grey-30: #e5e4e3;
+  --pds-global-general-grey-40: #c2c1c0;
+  --pds-global-general-grey-50: #a3a2a2;
+  --pds-global-general-grey-60: #7d7c7c;
+  --pds-global-general-grey-70: #6e6e6d;
+  --pds-global-general-grey-80: #4b4b49;
+  --pds-global-general-grey-90: #1f1e1e;
 
   /* background */
-  --pds-theme-color-background-primary: rgba(0, 68, 136, 1);
-  --pds-theme-color-background-sunken: rgba(250, 249, 248, 1);
-  --pds-theme-color-background-baseline: rgba(255, 255, 255, 1);
-  --pds-theme-color-background-baseline_inverse: rgba(31, 30, 30, 1);
-  --pds-theme-color-background-raised: rgba(255, 255, 255, 1);
-  --pds-theme-color-background-raised_inverse: rgba(31, 30, 30, 1);
-  --pds-theme-color-background-overlay: rgba(255, 255, 255, 1);
-  --pds-theme-color-background-error: rgba(252, 240, 240, 1);
-  --pds-theme-color-background-error_inverse: rgba(176, 0, 0, 1);
-  --pds-theme-color-background-warning: rgba(253, 243, 217, 1);
-  --pds-theme-color-background-warning_inverse: rgba(238, 189, 62, 1);
-  --pds-theme-color-background-positive: rgba(234, 245, 240, 1);
-  --pds-theme-color-background-positive_inverse: rgba(4, 99, 60, 1);
-  --pds-theme-color-background-info: rgba(235, 243, 249, 1);
-  --pds-theme-color-background-info_inverse: rgba(45, 90, 122, 1);
-  --pds-theme-color-background-disabled: rgba(194, 193, 192, 1);
+  --pds-theme-color-background-primary: #004488;
+  --pds-theme-color-background-sunken: #faf9f8;
+  --pds-theme-color-background-baseline: #ffffff;
+  --pds-theme-color-background-baseline_inverse: #1f1e1e;
+  --pds-theme-color-background-raised: #ffffff;
+  --pds-theme-color-background-raised_inverse: #1f1e1e;
+  --pds-theme-color-background-overlay: #ffffff;
+  --pds-theme-color-background-error: #fcf0f0;
+  --pds-theme-color-background-error_inverse: #b00000;
+  --pds-theme-color-background-warning: #fdf3d9;
+  --pds-theme-color-background-warning_inverse: #eebd3e;
+  --pds-theme-color-background-positive: #eaf5f0;
+  --pds-theme-color-background-positive_inverse: #04633c;
+  --pds-theme-color-background-info: #ebf3f9;
+  --pds-theme-color-background-info_inverse: #2d5a7a;
+  --pds-theme-color-background-disabled: #c2c1c0;
 
   /* foreground */
-  --pds-theme-color-foreground-primary: rgba(0, 68, 136, 1);
-  --pds-theme-color-foreground-on_primary: rgba(255, 255, 255, 1);
-  --pds-theme-color-foreground-neutral_high: rgba(31, 30, 30, 1);
-  --pds-theme-color-foreground-neutral_high_inverse: rgba(255, 255, 255, 1);
-  --pds-theme-color-foreground-neutral_medium: rgba(110, 110, 109, 1);
-  --pds-theme-color-foreground-error: rgba(176, 0, 0, 1);
-  --pds-theme-color-foreground-error_inverse: rgba(240, 181, 181, 1);
-  --pds-theme-color-foreground-warning: rgba(144, 103, 0, 1);
-  --pds-theme-color-foreground-warning_inverse: rgba(250, 224, 154, 1);
-  --pds-theme-color-foreground-positive: rgba(4, 99, 60, 1);
-  --pds-theme-color-foreground-positive_inverse: rgba(151, 208, 185, 1);
-  --pds-theme-color-foreground-info: rgba(45, 90, 122, 1);
-  --pds-theme-color-foreground-info_inverse: rgba(164, 201, 226, 1);
-  --pds-theme-color-foreground-disabled: rgba(194, 193, 192, 1);
+  --pds-theme-color-foreground-primary: #004488;
+  --pds-theme-color-foreground-on_primary: #ffffff;
+  --pds-theme-color-foreground-neutral_high: var(--pds-global-general-grey-90);
+  --pds-theme-color-foreground-neutral_high_inverse: #ffffff;
+  --pds-theme-color-foreground-neutral_medium: var(
+    --pds-global-general-grey-80
+  );
+  --pds-theme-color-foreground-neutral_low: var(--pds-global-general-grey-70);
+  --pds-theme-color-foreground-error: #b00000;
+  --pds-theme-color-foreground-error_inverse: #f0b5b5;
+  --pds-theme-color-foreground-warning: #8f6600;
+  --pds-theme-color-foreground-warning_inverse: #fae09a;
+  --pds-theme-color-foreground-positive: #04633c;
+  --pds-theme-color-foreground-positive_inverse: #97d0b9;
+  --pds-theme-color-foreground-info: #2d5a7a;
+  --pds-theme-color-foreground-info_inverse: #a4c9e2;
+  --pds-theme-color-foreground-disabled: #c2c1c0;
 
   /* outline */
-  --pds-theme-color-outline-primary: rgba(0, 68, 136, 1);
-  --pds-theme-color-outline-neutral_high: rgba(31, 30, 30, 1);
-  --pds-theme-color-outline-neutral_high_inverse: rgba(255, 255, 255, 1);
-  --pds-theme-color-outline-neutral_medium: rgba(110, 110, 109, 1);
-  --pds-theme-color-outline-neutral_low: rgba(229, 228, 227, 1);
-  --pds-theme-color-outline-error: rgba(176, 0, 0, 1);
-  --pds-theme-color-outline-warning: rgba(144, 103, 0, 1);
-  --pds-theme-color-outline-positive: rgba(4, 99, 60, 1);
-  --pds-theme-color-outline-info: rgba(45, 90, 122, 1);
-  --pds-theme-color-outline-disabled: rgba(194, 193, 192, 1);
+  --pds-theme-color-outline-primary: #004488;
+  --pds-theme-color-outline-neutral_high: #1f1e1e;
+  --pds-theme-color-outline-neutral_high_inverse: #ffffff;
+  --pds-theme-color-outline-neutral_medium: #6e6e6d;
+  --pds-theme-color-outline-neutral_low: #e5e4e3;
+  --pds-theme-color-outline-error: #b00000;
+  --pds-theme-color-outline-warning: #906700;
+  --pds-theme-color-outline-positive: #04633c;
+  --pds-theme-color-outline-info: #2d5a7a;
+  --pds-theme-color-outline-disabled: #c2c1c0;
 
   /* box shadows */
   --pds-theme-shadow-lowest-bottom: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -109,6 +112,7 @@ li,
 ol,
 ul,
 span {
+  color: var(--pds-theme-color-foreground-neutral_medium);
   max-width: 80ch;
 }
 html,
