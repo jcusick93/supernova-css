@@ -304,6 +304,10 @@ p + .content-block {
   display: none;
 }
 
+.token-value {
+  background: none;
+}
+
 /* changes the swatch sizes */
 .content-block--token-container .grid > div div.preview {
   height: 64px;
