@@ -179,6 +179,7 @@ h3 {
 /* customizes Figma block description */
 .layout-tiles.variant-plain .grid > div p.description {
   font-size: 1rem;
+  margin-bottom: 16px;
 }
 
 /* changes style of table */
