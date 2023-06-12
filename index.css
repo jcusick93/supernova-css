@@ -262,6 +262,10 @@ table.header-row tr:first-child th p {
 }
 
 /* callout component styles */
+.content-block--callout {
+  gap: 4px;
+}
+
 .content-block--callout.callout-info {
   background-color: var(--pds-theme-color-background-info);
   color: var(--pds-theme-color-foreground-info);
@@ -269,6 +273,11 @@ table.header-row tr:first-child th p {
 
 .content-block--callout.callout-info .icon {
   color: var(--pds-theme-color-foreground-info);
+}
+
+.content-block--callout .content {
+  margin: none;
+  font-size: 1rem;
 }
 
 #toast-content {
