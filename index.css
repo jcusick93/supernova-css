@@ -394,4 +394,8 @@ p + .content-block {
   .content-block--token-container .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* styles the Figma tiles grid */
+  .layout-tiles .grid.c2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
