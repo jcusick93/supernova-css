@@ -382,7 +382,7 @@ p + .content-block {
 .content-block--component-health {
   position: relative;
   display: inline-flex;
-  border-radius: 999px;
+  border-radius: 8px;
   height: 36px;
   overflow: hidden;
 }
