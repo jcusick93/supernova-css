@@ -378,6 +378,89 @@ p + .content-block {
 .page-bottom-navigation .segment .segment-text > .section {
   opacity: 1;
 }
+.content-block--component-health {
+  position: relative;
+  display: inline-flex;
+  border-radius: 999px;
+  height: 36px;
+  overflow: hidden;
+}
+
+.content-block--component-health::after {
+  opacity: 0;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: currentColor;
+  transition: opacity 200ms ease;
+}
+
+/* health status button */
+.content-block--component-health:hover::after {
+  opacity: 0.1;
+}
+
+.content-block--component-health:active::after {
+  opacity: 0.2;
+}
+
+.content-block--component-health[role="button"] {
+  box-shadow: none;
+}
+
+.content-block--component-health[role="button"]:hover {
+  box-shadow: none;
+}
+
+/* changes the color of the status buttons' text */
+.content-block.content-block--component-health.status-ready-to-use.dark {
+  color: var(--pds-theme-color-foreground-positive);
+}
+
+.content-block.content-block--component-health.status-under-construction.dark {
+  color: var(--pds-theme-color-foreground-warning);
+}
+
+/* status tag styles */
+.property-select-tag {
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0px 8px;
+}
+
+/* removes the view more string on the button */
+.content-block--component-health .date {
+  display: none;
+}
+
+/* styles the modal header color */
+.health-overlay-content .header.light,
+.health-overlay-content .header.dark {
+  color: currentColor;
+}
+
+.health-overlay-content.status-ready-to-use {
+  color: var(--pds-theme-color-foreground-positive);
+}
+
+.health-overlay-content.status-under-construction {
+  color: var(--pds-theme-color-foreground-warning);
+}
+
+/* removes border on modal header */
+.health-overlay-content .links,
+.health-overlay-content .info {
+  border: none;
+}
+
+/* styles content of button e.g. text */
+.health-tag-title .name {
+  font-size: 0.875rem;
+  margin-left: 4px;
+}
 
 /* handles responsive styles */
 @media screen and (max-width: 768px) {
