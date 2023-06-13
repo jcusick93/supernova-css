@@ -142,7 +142,7 @@ h3 {
 
 /* styles images on pages */
 .content-block--image img {
-  border-radius: var(--pds-global-border_radius-400);
+  border-radius: var(--pds-global-border_radius-300);
 }
 
 /* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
@@ -278,7 +278,7 @@ table.header-row tr:first-child th p {
 }
 
 .content-block--callout .content {
-  margin: none;
+  margin-top: none;
   font-size: 1rem;
 }
 
