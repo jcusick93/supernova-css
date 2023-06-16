@@ -273,8 +273,17 @@ table.header-row tr:first-child th p {
   color: var(--pds-theme-color-foreground-info);
 }
 
+.content-block--callout.callout-warning {
+  background-color: var(--pds-theme-color-background-warning);
+  color: var(--pds-theme-color-foreground-warning);
+}
+
 .content-block--callout.callout-info .icon {
   color: var(--pds-theme-color-foreground-info);
+}
+
+.content-block--callout.callout-warning .icon {
+  color: var(--pds-theme-color-foreground-warning);
 }
 
 .content-block--callout .content {
