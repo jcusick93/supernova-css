@@ -1,14 +1,14 @@
 :root {
   /* colors */
-  --pds-global-general-grey-10: #faf9f8;
-  --pds-global-general-grey-20: #f0eeed;
-  --pds-global-general-grey-30: #e5e4e3;
-  --pds-global-general-grey-40: #c2c1c0;
-  --pds-global-general-grey-50: #a3a2a2;
-  --pds-global-general-grey-60: #7d7c7c;
-  --pds-global-general-grey-70: #6e6e6d;
-  --pds-global-general-grey-80: #4b4b49;
-  --pds-global-general-grey-90: #1f1e1e;
+  --pds-global-color-general-grey-10: #faf9f8;
+  --pds-global-color-general-grey-20: #f0eeed;
+  --pds-global-color-general-grey-30: #e5e4e3;
+  --pds-global-color-general-grey-40: #c2c1c0;
+  --pds-global-color-general-grey-50: #a3a2a2;
+  --pds-global-color-general-grey-60: #7d7c7c;
+  --pds-global-color-general-grey-70: #6e6e6d;
+  --pds-global-color-general-grey-80: #4b4b49;
+  --pds-global-color-general-grey-90: #1f1e1e;
 
   /* background */
   --pds-theme-color-background-primary: #004488;
@@ -34,9 +34,11 @@
   --pds-theme-color-foreground-neutral_high: var(--pds-global-general-grey-90);
   --pds-theme-color-foreground-neutral_high_inverse: #ffffff;
   --pds-theme-color-foreground-neutral_medium: var(
-    --pds-global-general-grey-80
+    --pds-global-color-general-grey-80
   );
-  --pds-theme-color-foreground-neutral_low: var(--pds-global-general-grey-70);
+  --pds-theme-color-foreground-neutral_low: var(
+    --pds-global-color-general-grey-70
+  );
   --pds-theme-color-foreground-error: #b00000;
   --pds-theme-color-foreground-error_inverse: #f0b5b5;
   --pds-theme-color-foreground-warning: #8f6600;
@@ -362,7 +364,7 @@ p + .content-block {
 /* styles the border radius swatch */
 .token-preview-container-radius {
   border: none;
-  background-color: var(--pds-global-general-grey-30);
+  background-color: var(--pds-global-color-general-grey-30);
 }
 
 .token-preview-container-border.large,
