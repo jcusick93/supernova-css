@@ -280,7 +280,7 @@ table.header-row tr:first-child th p {
   color: var(--pds-theme-color-foreground-warning);
 }
 
-.content-block--callout.callout-error {
+.content-block--callout.callout-danger {
   background-color: var(--pds-theme-color-background-error);
   color: var(--pds-theme-color-foreground-error);
 }
@@ -299,7 +299,7 @@ table.header-row tr:first-child th p {
   color: var(--pds-theme-color-foreground-warning);
 }
 
-.content-block--callout.callout-error .icon {
+.content-block--callout.callout-danger .icon {
   color: var(--pds-theme-color-foreground-error);
 }
 .content-block--callout.callout-success .icon {
