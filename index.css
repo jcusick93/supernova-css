@@ -144,7 +144,7 @@ h3 {
 
 /* styles images on pages */
 .content-block--image img {
-  border-radius: var(--pds-global-border_radius-300);
+  border-radius: 0px;
 }
 
 /* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
