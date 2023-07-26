@@ -221,7 +221,7 @@ table.header-row tr:first-child th p {
 .layout-tiles img {
   width: 100%;
   background: var(--pds-theme-color-background-sunken);
-  border-radius: var(--pds-global-border_radius-400);
+  border-radius: 0px;
 }
 
 /* changes the side nav logo */
