@@ -147,6 +147,11 @@ h3 {
   border-radius: 0px;
 }
 
+.layout-tiles .grid > div div.preview,
+.layout-tiles .grid > a > div div.preview {
+  border-radius: 0px;
+}
+
 /* changes pages titles, side nav category titles, and Figma blocks titles to Poppins */
 .container-title > .slider h1.page-title,
 .docs-navigation > .nav.first-level-flat .group-open > .nav-link.group,
